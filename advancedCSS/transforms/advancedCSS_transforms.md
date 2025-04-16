@@ -189,6 +189,30 @@ In order to understand why the `transform` property is great, you have to be awa
 The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see what triggers are executed with each CSS property in this table of CSS triggers.
 Another benefit of `transform` is that it can be hardware-accelerated via a device's GPU (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
 
+<br>
+
+##### What are the four main functions of the `transform` property?
+
+The four main functions of the `transform` property are: `translate`, `scale`, `rotate` and `skew`.
+
+<br>
+
+##### Which function can be used to move an object through space on the X, Y, or Z axis?
+
+The `translate3d()` function can be used to move an object through space on the X, Y, or Z axis.
+
+<br>
+
+##### Which function can be used to make an object larger or smaller on the X, Y, or Z axis?
+
+The `scale()` function can be used to make an object larger or smaller.
+
+<br>
+
+##### What additional function is required for 3D transforms?
+
+The additional function required for 3d transforms is `perspective()`.
+
 <hr>
 <br>
 <br>
