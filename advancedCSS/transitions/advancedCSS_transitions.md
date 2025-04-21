@@ -128,17 +128,27 @@ What's important is that you have a solid understanding of these concepts and ca
 
 - ##### Are all CSS properties animatable?
 
+While a lot of CSS properties are animatable, not all of them are.
+
 <br>
 
 - ##### What are the long and short-hand notations for transitions?
+
+The short-hand notation for transition is: `transition: <transition-property> <transition-duration> <transition-timing-function> <transition-delay> <transition-behavior>`
+
+The long-hand notations for transition are: `transition-property`, `transition-duration`, `transition-timing-function`, `transition-delay`, and `transition-behavior`.
 
 <br>
 
 - ##### What is the stacking context?
 
+The stacking context determines how elements are layered on top of one another along the z-axis (think of it as the "depth" dimension on your screen). Stacking context determines the visual order of how overlapping content is rendered.
+
 <br>
 
 - ##### Why do you need to keep an eye on repaints?
+
+You need to keep an eye on repaints for CSS animations because it is an expensive operation, performance-wise, and can make your page look sluggish.
 
 <hr>
 <br>
