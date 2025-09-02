@@ -250,4 +250,26 @@ PercentageStat.propTypes = {
 <br>
 <br>
 
-[]()
+[Active Link Styling using React-Router](https://reactrouter.com/6.28.0/start/tutorial#active-link-styling)
+
+- Automatically add className 'active' or 'pending' for Nav Link to indicate which one is active or which one is pending
+
+<br>
+
+[Pending UI using React-Router](https://reactrouter.com/6.28.0/start/tutorial#global-pending-ui)
+
+- Adds `navigation.state` that can be `idle || submitting || loading`
+
+<br>
+
+[Adding spinner when the page is loading](https://reactrouter.com/6.28.0/start/tutorial#adding-search-spinner)
+
+<br>
+
+[Submitting form (mutating) without navigation](https://reactrouter.com/6.28.0/start/tutorial#mutations-without-navigation)
+
+<br>
+
+[Optimistic UI](https://reactrouter.com/6.28.0/start/tutorial#optimistic-ui)
+
+Updating the UI with the submitted formData before it even reflects, but at the same time have the actual data go back if it fails
